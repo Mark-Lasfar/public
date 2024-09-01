@@ -1,0 +1,52 @@
+[debug] [2024-09-01T23:03:01.287Z] ----------------------------------------------------------------------
+[debug] [2024-09-01T23:03:01.292Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hagar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-09-01T23:03:01.293Z] CLI Version:   13.16.0
+[debug] [2024-09-01T23:03:01.294Z] Platform:      win32
+[debug] [2024-09-01T23:03:01.294Z] Node Version:  v20.16.0
+[debug] [2024-09-01T23:03:01.294Z] Time:          Mon Sep 02 2024 02:03:01 GMT+0300 (Eastern European Summer Time)
+[debug] [2024-09-01T23:03:01.295Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-01T23:03:01.451Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-01T23:03:01.452Z] > authorizing via signed-in user (marklasfar@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\hagar\OneDrive\Desktop\cv
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-09-01T23:03:16.887Z] Using project from CLI flag: mark-elasfar
+[debug] [2024-09-01T23:03:16.889Z] > refreshing access token with scopes: []
+[debug] [2024-09-01T23:03:16.892Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-09-01T23:03:16.892Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-09-01T23:03:18.119Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-09-01T23:03:18.120Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-09-01T23:03:18.165Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mark-elasfar [none]
+[debug] [2024-09-01T23:03:18.926Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mark-elasfar 200
+[debug] [2024-09-01T23:03:18.926Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mark-elasfar {"projectId":"mark-elasfar","projectNumber":"452467870944","displayName":"mark elasfar","name":"projects/mark-elasfar","resources":{"hostingSite":"mark-elasfar"},"state":"ACTIVE","etag":"1_c3bdc6ee-de84-40cf-b9ac-218f4dec2c4c"}
+[info] i  Using project mark-elasfar (mark elasfar) 
+[info] 
+=== Hosting Setup
+[debug] [2024-09-01T23:03:18.974Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mark-elasfar [none]
+[debug] [2024-09-01T23:03:19.299Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mark-elasfar 200
+[debug] [2024-09-01T23:03:19.299Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mark-elasfar {"projectId":"mark-elasfar","projectNumber":"452467870944","displayName":"mark elasfar","name":"projects/mark-elasfar","resources":{"hostingSite":"mark-elasfar"},"state":"ACTIVE","etag":"1_c3bdc6ee-de84-40cf-b9ac-218f4dec2c4c"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
